@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <head>
+        <title>Sign-up</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/c5f1eac028.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class=" navbar">
+                <img src="logopro.png" class="logo">
+                <ul>
+                    <li><a href="arxiki.php" >Home</a></li>
+                    <li><a href="#information" >About Us</a></li>
+                    <li><a href="courses.php" >Courses</a></li>
+                    <li><a href="#contact" >Contact</a></li>
+                    <li><a href="loginpage.html"><i class="fa fa-user" style="font-size:36px"></i></a></li>
+
+                </ul>
+            </div>
+
+
+            <div class="content">
+                <div class="form-box">
+                    <h1 id="title">Sign Up</h1>
+                    <form action="signup.php" id="signUpForm" method="post">
+                    <div class="input-group">
+
+
+                        <div class="input-field" id="nameField">
+                            <i class="fa-solid fa-user" style="color: #2b1e4a;"></i>
+                            <input type="text" name="first_name" placeholder="First Name">
+                        </div>
+
+                        <div class="input-field" id="LastnameField">
+                            <i class="fa-solid fa-user" style="color: #2b1e4a;"></i>
+                            <input type="text" name="last_name" placeholder="Last Name">
+                        </div>
+
+                        <div class="input-field" id="UsernameField">
+                            <i class="fa-solid fa-user" style="color: #2b1e4a;"></i>
+                            <input type="text" name="username" placeholder="Username">
+                        </div>
+
+
+
+                        <div class="input-field" id="emailField">
+                            <i class="fa-solid fa-square-envelope" style="color: #2b1e4a;"></i>
+                            <input type="email" name="email" placeholder="Email">
+                        </div>
+
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock" style="color:#2b1e4a;"></i>
+                            <input type="password" name="password" placeholder="Password">
+                        </div>
+                        
+                        <p>Log in here <a href="loginpage.html">Click Here</a></p>
+
+                    </div>
+
+
+                    <div class="btn-field">
+                        <button  type="submit" id="signupbtn"><span></span>SIGN UP</button><br>
+                       
+                    </div>
+                     </form>
+
+                 
+                </div>
+            </div>
+        </div>
+
+        <section class="footer">
+            
+            <h1 class="footerH1">EDUCATION PRO ||</h1>
+            <div class="footerAM">
+                <ul>
+                    <li><a href="#" >P20105</a></li>
+                    <li><a href="#" >P20125</a></li>
+                    <li><a href="#" >P20248</a></li>
+                </ul>
+
+
+                <h3>Contact Info</h3>
+                <p id="contact">
+                Email:pkoutsoud@gmai.com<br>
+    
+                Tel:2102324232<br>
+                
+                Tel:2103245453
+                
+    
+                </p>
+            </div>
+           
+
+        </section>
+
+       
+    </body>
+</html>
